@@ -16,7 +16,7 @@ if 'person' not in st.session_state:
     st.session_state.recommendations=None
     st.session_state.person=None
     st.session_state.weight_loss_option=None
-class Person:
+class Person: 
 
     def __init__(self,age,height,weight,gender,activity,meals_calories_perc,weight_loss):
         self.age=age
